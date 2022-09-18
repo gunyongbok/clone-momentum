@@ -1,0 +1,183 @@
+html {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+        Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+.hidden {
+    display: none;
+}
+.backgroundImage {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: -1;
+    opacity: 80%;
+}
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+.top-container {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.first-container {
+    height: 100%;
+    width: 70%;
+}
+.second-box {
+    display: flex;
+    flex-direction: row;
+    height: 30%;
+    position: relative;
+    top: -30px;
+}
+.first-box {
+    height: 70%;
+}
+.first-box-time {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+}
+.first-box-time .date {
+    margin-bottom: 10px;
+    margin-top: 0;
+    font-size: 50px;
+}
+.first-box-time .time {
+    font-size: 100px;
+    margin: 0;
+}
+.first-box-login {
+    display: flex;
+    justify-content: center;
+}
+.first-box-time #weather {
+    font-size: 20px;
+}
+.first-box-time #weather span:first-child {
+    margin-right: 15px;
+}
+.login-form {
+    position: relative;
+    top: -40px;
+}
+.login-input {
+    border-radius: 5px;
+    height: 30px;
+    background-color: transparent;
+    border-width: 3px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-bottom-width: 1;
+    border-color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.login-input:focus {
+    outline: none;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.login-input::placeholder {
+    color: white;
+}
+.input-submit {
+    height: 30px;
+    border-radius: 5px;
+    border-color: transparent;
+}
+#greeting {
+    margin: 0;
+    font-size: 50px;
+    font-weight: 600;
+    position: relative;
+    top: -30px;
+    color: white;
+}
+.quote {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    top: -30px;
+    margin-left: 40px;
+}
+.quote span {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.quote div {
+    margin-top: 30px;
+    font-size: 20px;
+}
+.link-music {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.link-music .music {
+    margin-bottom: 20px;
+}
+.link-music .logo-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.link-music .logo-links img {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+}
+.second-container {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 150px;
+    left: -20px;
+}
+.todo-input {
+    border-radius: 5px;
+    height: 30px;
+    width: 340px;
+    background-color: transparent;
+    border-width: 3px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-bottom-width: 1;
+    border-color: white;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.todo-input::placeholder {
+    color: white;
+}
+.todo-input:focus {
+    outline: none;
+    font-size: 25px;
+    color: white;
+}
+#todo-list {
+    font-size: 30px;
+}

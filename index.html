@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Make Perfect Day!</title>
+    </head>
+    <body>
+        <div class="top-container">
+            <div class="first-container">
+                <div class="first-box">
+                    <div class="first-box-time">
+                        <h3 class="date">date</h3>
+                        <h2 class="time">clock</h2>
+                        <div id="weather">
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="first-box-login">
+                        <form class="login-form hidden">
+                            <input
+                                type="text"
+                                class="login-input"
+                                placeholder="What is your name?"
+                                maxlength="10"
+                                required
+                            />
+                            <input
+                                type="submit"
+                                class="input-submit"
+                                value="Log in"
+                            />
+                        </form>
+                        <h1 id="greeting" class="hidden"></h1>
+                    </div>
+                </div>
+                <div class="second-box">
+                    <div class="quote">
+                        <span></span>
+                        <div></div>
+                    </div>
+                    <div class="link-music">
+                        <div class="music">
+                            <audio
+                                autoplay
+                                controls
+                                src="music/Rinne - Precious you.mp3"
+                            ></audio>
+                        </div>
+                        <div class="logo-links">
+                            <a href="https://www.google.co.kr/"
+                                ><img src="linkimage/google.jpg"
+                            /></a>
+                            <a href="https://www.naver.com/"
+                                ><img src="linkimage/naver.jpg"
+                            /></a>
+                            <a href="https://www.facebook.com/"
+                                ><img src="linkimage/facebook.jpg"
+                            /></a>
+                            <a href="https://www.instagram.com/"
+                                ><img src="linkimage/instagram.jpg"
+                            /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="second-container">
+                <form id="todo-form">
+                    <input
+                        class="todo-input"
+                        type="text"
+                        placeholder="Write a To Do and Press Enter"
+                        required
+                    />
+                </form>
+                <ul id="todo-list"></ul>
+            </div>
+        </div>
+        <script src="js/clock.js"></script>
+        <script src="js/login.js"></script>
+        <script src="js/quotes.js"></script>
+        <script src="js/background.js"></script>
+        <script src="js/todo.js"></script>
+        <script src="js/weather.js"></script>
+    </body>
+</html>
